@@ -15,6 +15,11 @@ module.exports = {
   plugins: ['react', '@typescript-eslint', 'prettier'],
   rules: {
     'prettier/prettier': 'error',
+    'react/jsx-first-prop-new-line': [2, 'multiline'],
+    'react/jsx-max-props-per-line': [2, { maximum: 1, when: 'multiline' }],
+    'react/jsx-indent-props': [2, 2],
+    'react/jsx-closing-bracket-location': [2, 'tag-aligned'],
+    'max-len': ['error', { code: 120, ignoreUrls: true }],
   },
   settings: {
     react: {
