@@ -20,6 +20,8 @@ module.exports = {
     'react/jsx-indent-props': [2, 2],
     'react/jsx-closing-bracket-location': [2, 'tag-aligned'],
     'max-len': ['error', { code: 120, ignoreUrls: true }],
+    'no-unused-vars': 'off',
+    '@typescript-eslint/no-unused-vars': ['error'],
   },
   settings: {
     react: {
